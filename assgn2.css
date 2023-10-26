@@ -1,0 +1,172 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.product p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    transition: background-color 0.3s;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.product:hover {
+    background-color: #f9f9f9;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.product p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.cart {
+    float: right;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.cart h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    margin: 5px 0;
+}
+
+.mode-toggle {
+    float: right;
+    margin-top: 20px;
+}
+
+.order-info {
+    margin-top: 20px;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.product.dark-mode {
+    background-color: #444;
+}
+
+.cart.dark-mode {
+    background-color: #444;
+    color: #fff;
+}
+.login{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #23463f;
+    border-radius: 15px ;
+
+}
+h2{
+text-align: center;
+color: #277582;
+padding: 20px;
+}
+label{
+color: #08ffd1;
+font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    float: right;
+    background-color: grey;
+}
+.rating {
+    color: #ffcc00; /* Star color */
+    font-size: 24px;
+}
